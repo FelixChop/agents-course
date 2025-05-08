@@ -276,7 +276,7 @@ class SuperheroPartyThemeTool(Tool):
     
     output_type = "string"
 
-    def forward(self, category: str):
+    def forward(self, category: str) -> str:
         themes = {
             "classic heroes": "Justice League Gala: Guests come dressed as their favorite DC heroes with themed cocktails like 'The Kryptonite Punch'.",
             "villain masquerade": "Gotham Rogues' Ball: A mysterious masquerade where guests dress as classic Batman villains.",
